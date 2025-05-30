@@ -3,38 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor | Stats preview card component</title>
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <title>Stats Preview Card</title>
   </head>
   <body>
-    <div class="container">
-      <div class="description">
-        <h1>Get <span>insights</span> that help your business grow.</h1>
-        <p>
-          Discover the benefits of data analytics and make better decisions
-          regarding <strong>revenue</strong>,
-          <strong>customer experience,</strong> and
-          <strong>overall efficiency</strong>.
-        </p>
-      </div>
-
-      <div class="stats">
-        <div class="stat">
-          <strong>10k+</strong> <span>companies</span> <strong>314</strong>
-          <span>templates</span> <strong>12m+</strong> <span>queries</span>
+    <main>
+      <div class="container">
+        <!-- image Div -->
+        <div>
+          <section class="imageArea"></section>
+        </div>
+        <!-- Text Div -->
+        <div class="textArea">
+          <div>
+            <h1>
+              Get <span id="purpleText">insights </span>that help your business
+              grow.
+            </h1>
+            <p>
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <section id="featured">
+            <div class="featured-grid">
+              <div class="featured-texts">
+                <h2>10k+</h2>
+                <p>companies</p>
+              </div>
+              <div class="featured-texts">
+                <h2>314</h2>
+                <p>templates</p>
+              </div>
+              <div class="featured-texts">
+                <h2>12m+</h2>
+                <p>queries</p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Ehidiamen Ezekiel</a>.
-      </div>
-    </div>
-
-    <div class="image1">
-      <img src="images/image 1.jpg" alt="background image" />
-    </div>
+    </main>
   </body>
 </html>
